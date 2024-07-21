@@ -1,0 +1,132 @@
+/* Custom font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background: none; /* Remove the black background */
+    padding: 20px;
+}
+
+/* Header image styling */
+.header-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li, img, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* General body styling */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+}
+
+/* Image gallery styling with hover effect */
+.images img {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px;
+    transition: transform 0.2s, ;
+}
+
+.images img:hover {
+    transform: scale(1.1);
+    
+}
+
+/* Footer styling */
+footer {
+
+    padding: 20px 0;
+}
+
+/* Footer content styling */
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Company logo styling */
+.company-logo {
+    display: block;
+    margin: 20px auto 0;
+    width: 500px; /* Make the logo larger */
+    height: auto;
+}
+
+/* Form styling */
+.footer-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-content input,
+.footer-content textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.footer-content button {
+    background: #ff9900;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer-content button:hover {
+    background: #ff7700;
+}
